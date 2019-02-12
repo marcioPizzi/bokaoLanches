@@ -27,7 +27,7 @@ public class ClienteDAO {
     }
 
     public void cadastrarCliente(ClienteModelo Cliente) {
-
+        //Teste para Github.
         try {
             //dataNascCli,
             String SQLInsertion = "insert into cliente (nomeCli, endCli,  numeroEnd, bairroCli, telResCli, telCelCli, situacaoCli) values (?,?,?,?,?,?,?)";
