@@ -28,6 +28,7 @@ public class ClienteDAO {
 
     public void cadastrarCliente(ClienteModelo Cliente) {
         //Teste para Github.
+        //Alterado do netbeans
         try {
             //dataNascCli,
             String SQLInsertion = "insert into cliente (nomeCli, endCli,  numeroEnd, bairroCli, telResCli, telCelCli, situacaoCli) values (?,?,?,?,?,?,?)";
